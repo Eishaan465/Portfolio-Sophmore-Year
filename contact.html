@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Contact Me</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<iframe class="p5-background" src="https://editor.p5js.org/EISHAAN/full/vcULu6xx0"></iframe>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-black border-bottom fixed-top">
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="index.html">Eishaan's Portfolio</a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="About.html">Projects</a></li>
+        <li class="nav-item"><a class="nav-link active" href="Contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<section class="container">
+  <div class="contact-card">
+    <p class="small-label text-center">Contact</p>
+    <h1 class="text-center mb-3">Contact Me</h1>
+
+    <p class="text-center mb-4">
+      Here is my contact information
+    </p>
+
+    <div class="contact-info">
+      <p><strong>Email:</strong> Eishaan.kumar@mcvts.org</p>
+      <p><strong>GitHub:</strong> https://github.com/Eishaan465 </p>
+      
+    </div>
+
+    <form action="send_email.php" method="POST">
+      <div class="mb-3">
+        <label for="name" class="form-label">Your Name</label>
+        <input type="text" class="form-control" id="name" name="name" placeholder="Your name">
+      </div>
+
+      <div class="mb-3">
+        <label for="email" class="form-label">Your Email</label>
+        <input type="email" class="form-control" id="email" name="email" placeholder="you@example.com">
+      </div>
+
+      <div class="mb-4">
+        <label for="message" class="form-label">Your Message</label>
+        <textarea class="form-control" id="message" name="message" rows="5" placeholder="Write your message here..."></textarea>
+      </div>
+
+      <button type="submit" class="btn btn-light w-100">Send Message</button>
+    </form>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <p>2026 Eishaan   Portfolio Website</p>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>

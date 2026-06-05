@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Projects</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<iframe class="p5-background" src="https://editor.p5js.org/EISHAAN/full/vcULu6xx0"></iframe>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-black border-bottom fixed-top">
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="index.html">Eishaan's Portfolio</a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link active" href="About.html">Projects</a></li>
+        <li class="nav-item"><a class="nav-link" href="Contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<section class="container">
+  <div class="page-intro">
+    <p class="small-label">About Me</p>
+    <h1>Biography</h1>
+
+    <p>
+      My name is Eishaan, and I am a Computer and Information Sciences student interested in programming,
+      web design, and technology projects. I have experience working with Python, C++, HTML, CSS,
+      Bootstrap, AI tools, and basic prototype design.
+    </p>
+
+    <p>
+      This portfolio presents some of the projects I completed through my high school journey, from freshman
+      through sophomore year. Each project highlights what I have accomplished in software development,
+      problem solving, debugging, and design thinking.
+    </p>
+  </div>
+</section>
+
+<section class="container">
+  <h2 class="section-title">Project Showcase</h2>
+
+  <div class="project-card">
+    <div class="row g-4 align-items-center">
+      <div class="col-md-6">
+        <p class="small-label">Software Final</p>
+        <h3>Intelligent Tic Tac Toe</h3>
+
+        <p>
+          Intelligent Tic Tac Toe is a C++ application that allows a user to compete against an AI-powered opponent.
+          Instead of relying only on random moves or simple preset logic, this project uses a locally hosted AI model
+          through Ollama to help choose moves during gameplay.
+        </p>
+
+        <h5>Technical Stack</h5>
+        <p>
+          C++, Ollama, local AI models, curl requests, JSON response handling, vectors, loops, conditionals,
+          and functions.
+        </p>
+
+        <h5>Process & Challenges</h5>
+        <p>
+          I designed the game by separating the board display, win checking, player input, and AI move selection
+          into different parts of the program. One of the main challenges was reading the AI response correctly
+          and making sure the program could reject invalid moves.
+        </p>
+
+        <h5>Sample Code</h5>
+        <pre><code>if (checkWin(board, 'X')) {
+    cout &lt;&lt; "You win!" &lt;&lt; endl;
+}</code></pre>
+
+        <a class="btn btn-light" href="https://github.com/Eishaan465/34" target="_blank">View Source Code</a>
+        <a class="btn btn-light ms-2" href="ai-tic-tac-toe.pdf" target="_blank">Open Full PDF</a>
+      </div>
+
+      <div class="col-md-6">
+        <div class="pdf-box">
+          <iframe src="ai-tic-tac-toe.pdf#toolbar=0&page=1"></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="project-card">
+    <div class="row g-4 align-items-center">
+      <div class="col-md-6">
+        <p class="small-label">Earth Prize / Biomimicry Challenge</p>
+        <h3>Smart Compost Dispenser Prototype</h3>
+
+        <p>
+          The Smart Compost Dispenser was developed as part of the Earth Prize and Biomimicry Challenge.
+          The project focuses on improving compost management by using sensor-based monitoring and an
+          automated dispenser concept to help maintain better composting conditions.
+        </p>
+
+        <h5>Technical Stack</h5>
+        <p>
+          Arduino Uno, soil moisture and temperature sensors, servo motors, Tinkercad 3D modeling,
+          circuit planning, prototype diagrams, and presentation slides.
+        </p>
+
+        <h5>Process & Challenges</h5>
+        <p>
+          I worked through different prototype ideas to decide how the dispenser could attach to different compost
+          bin sizes. A major challenge was planning how the sensor, wiring, Arduino, refillable sections, and
+          moving parts would fit together in a practical design.
+        </p>
+
+        <h5>Artifacts</h5>
+        <p>
+          The project PDF includes design documentation, prototype diagrams, engineering sketches, and
+          presentation materials.
+        </p>
+
+        <a class="btn btn-light" href="biomimicry.pdf" target="_blank">Open Full PDF</a>
+      </div>
+
+      <div class="col-md-6">
+        <div class="pdf-box">
+          <iframe src="biomimicry.pdf#toolbar=0&page=1"></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="project-card">
+    <div class="row g-4 align-items-center">
+      <div class="col-md-6">
+        <p class="small-label">Python Image Processing</p>
+        <h3>Profile Picture Image Generator</h3>
+
+        <p>
+          The Profile Picture Image Generator is a Python application that retrieves a random image from an online
+          API and transforms it into a formatted profile picture. The program resizes the image, applies a custom
+          filter, and saves the finished result as a new image file.
+        </p>
+
+        <h5>Technical Stack</h5>
+        <p>
+          Python, requests library, Pillow/PIL, Dog CEO image API, image resizing, file saving, and pixel editing.
+        </p>
+
+        <h5>Process & Challenges</h5>
+        <p>
+          I organized the program into separate steps for downloading, editing, and saving the image. The main
+          challenge was learning how RGB pixel values work and making sure the edited color values stayed within
+          the correct range.
+        </p>
+
+        <h5>Sample Code</h5>
+        <pre><code>for x in range(width):
+    for y in range(height):
+        r, g, b = pixels[x, y]
+        r = min(r + 50, 255)
+        pixels[x, y] = (r, g, b)</code></pre>
+
+        <a class="btn btn-light" href="https://github.com/Eishaan465/12341" target="_blank">View Source Code</a>
+      </div>
+
+      <div class="col-md-6">
+        <div class="image-demo">
+          <p id="dogStatus" class="small-label">Before Image</p>
+          <img id="dogImage" src="images/dog-before.png" alt="Dog image before running the Python image generator">
+          <button class="btn btn-light mt-3" onclick="runDogDemo()">Run Image Generator</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="project-card">
+    <div class="row g-4 align-items-center">
+      <div class="col-md-6">
+        <p class="small-label">AP CSP Create Performance Task</p>
+        <h3>Basketball Performance Score Calculator</h3>
+
+        <p>
+          The Basketball Performance Score Calculator was developed for the AP Computer Science Principles Create
+          Performance Task. The application collects a player's points, assists, and rebounds, then calculates a
+          standardized performance score that can be used to compare basketball performances.
+        </p>
+
+        <h5>Technical Stack</h5>
+        <p>
+          Python, lists, functions with parameters, loops, conditionals, user input, score calculation,
+          and file handling.
+        </p>
+
+        <h5>Process & Challenges</h5>
+        <p>
+          I created a scoring system that combines multiple basketball statistics into one overall number.
+          The main challenge was designing a formula that made sense while also storing each player's result
+          so scores could be reviewed and compared later.
+        </p>
+
+        <h5>Sample Code</h5>
+        <pre><code>score = (points * 2) + (assists * 3) + rebounds</code></pre>
+
+        <a class="btn btn-light" href="https://github.com/Eishaan465/Player-Basketball-Stats" target="_blank">View Source Code</a>
+      </div>
+
+      <div class="col-md-6">
+        <div class="video-box">
+          <video controls>
+            <source src="ap-csp-walkthrough.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </div>
+
+        <p class="video-caption">
+          Program walkthrough video showing input, calculation, output, and file logging.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <p>© 2025 Eishaan — Portfolio Website</p>
+  </div>
+</footer>
+
+<script>
+  function runDogDemo() {
+    const dogImage = document.getElementById("dogImage");
+    const dogStatus = document.getElementById("dogStatus");
+
+    dogStatus.textContent = "Running Image Generator...";
+
+    setTimeout(function () {
+      dogImage.src = "images/dog-after.png";
+      dogImage.alt = "Dog image after running the Python image generator";
+      dogStatus.textContent = "After Image";
+    }, 900);
+  }
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
